@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(254, 220, 199, 0.5), rgba(251, 92, 153, 0.5));
+ }
+
+ /* url("../images/visax-gy7ebK1ifhQ-unsplash.jpg"); */
+
+
+table {
+    width: 60%;
+    background-color: cyan;
+    border: 2px cyan solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px auto;
+    box-shadow: 2px 2px 5px white;
+}
+
+table tr td {
+    padding: 10px;
+    border: 1px solid cyan;
+    background-color: lightcyan;
+}
+
+thead th {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    text-align: center;
+    color: coral;
+    text-shadow: 1px 1px black;
+}
+
+.selector {
+    width: 20%;
+}
+
+.example {
+    width: 20%;
+}
+
+/* footer p {
+    text-align: center;
+    color: gray;
+    padding-top: 25px;
+  
+} */
